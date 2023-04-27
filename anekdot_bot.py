@@ -41,7 +41,6 @@ def parser(url, headers, response, html, soup, pages):
 
 
 list_of_jokets = parser(url, headers, response, html, soup, pages)
-print(list_of_jokets)
 random.shuffle(list_of_jokets)
 
 TOKEN = '6120629335:AAF8ERXPC7rCzWccZbKwi1WxODAzqBPObx8'
